@@ -1,1 +1,7 @@
-# CPP_PROJECT
+This Hotel Management System is a console-based application developed in C++ using core Object-Oriented Programming principles. The project focuses on simplifying hotel operations such as room booking, customer check-in, check-out, and billing. Rooms are created in different categories, and the system maintains their booking status while calculating rent based on room type and duration of stay.
+
+The project makes extensive use of OOP concepts including classes, objects, inheritance, polymorphism, encapsulation, abstraction, constructors, destructors, friend functions, operator overloading, and templates. Deluxe and Basic rooms are implemented using inheritance, and room details are displayed through an overloaded output operator. Polymorphism is used through virtual functions to differentiate room types during runtime.
+
+Customer information is stored using binary file handling, allowing the program to maintain records even after closing. When a customer checks in, their data is saved in a file, and during check-out, the system retrieves the record, calculates the final bill, updates the room status, and rewrites the updated data. This approach provides a real-time record management experience.
+
+Overall, the project demonstrates how C++ can be used to design a functional hotel management solution by integrating OOP concepts and file handling. It is simple, efficient, and suitable for academic submissions or learning how OOP applies to real-world management systems.
